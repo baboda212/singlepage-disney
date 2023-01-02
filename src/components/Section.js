@@ -15,7 +15,13 @@ export default function Section(props) {
             alt="타이틀이미지"
             />
         </div>
-        
+        <div className="sns">
+        <p>
+            <a href={props.iurl}>{props.isns}</a>
+            <a href={props.furl}>{props.fsns}</a>
+            <a href={props.yurl}>{props.ysns}</a>
+        </p>
+        </div>
     </section>
   )
 }
